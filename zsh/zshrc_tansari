@@ -1,0 +1,21 @@
+# personal-configs/zsh/zshrc_tansari
+#
+# This is my personal zsh config file. This will be imported by the machine's local config using:
+#
+# `
+# if [ -f "$HOME/.zshrc_tansari" ]; then
+#  source "$HOME/.zshrc_tansari"
+# fi
+# `
+#
+
+# Aliases
+alias ll='ls -lah'
+alias gs='git status'
+alias ga='git add'
+alias gpull='git pull'
+alias gp='git push'
+alias gc='git commit'
+alias gco='git checkout'
+
+
