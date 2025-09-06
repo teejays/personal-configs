@@ -9,6 +9,9 @@
 # `
 #
 
+# GPG Configuration
+export GPG_TTY=$(tty)
+
 # Aliases
 alias ll='ls -lah'
 alias gs='git status'
